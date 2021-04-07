@@ -1,0 +1,45 @@
+h1{color:#00ffdd;}
+h3{color: silver;}
+
+body{background-color: #000000}
+
+*{border: solid;}
+
+.header *{
+    background-color: wheat;
+    border: solid;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.text h2{color: orangered; margin-left:-10px;}
+.text *{
+    background-color: rgb(51, 179, 230);
+    border: solid;
+
+    display: flex;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.item h2{color:yellow ; margin-left:-10px; background-color: rgb(255, 86, 56);}
+
+.main p{color:springgreen; position: absolute; top:45%; left: 7.5%;transform: translate(-50%,-50%);}
+.main{
+    display: flex;
+    position: relative;
+
+    flex-wrap: wrap;
+    padding: 10px;
+    
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+a:link{color: green}
+a:visited{color: red}
+a:hover{color: greenyellow}
